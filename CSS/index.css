@@ -1,0 +1,114 @@
+body{
+    /*background-image: url("/images/mirai.png");*/
+    
+}
+
+button{
+cursor: pointer;
+width: 100px;
+height: 80px;
+}
+
+button:hover{
+background-color: beige;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    /*background-color: rgb(177, 177, 227);*/
+    background-color: white;
+
+    justify-content: space-between; 
+
+    border-bottom:2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style:solid;
+    border-color: black;
+   
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+    cursor: pointer;
+}
+
+.head-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+
+.selfi-img{
+    width: 100px;
+    height: 70px;
+    border-radius: 40px;
+
+    cursor: pointer;
+}
+
+/*
+.background-div{
+    background-image: url("/images/mirai.png");
+    background-size:fill;
+
+    background-color: red;
+}
+*/
+
+.intro-div{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;*/
+    margin-top: 80px;
+    display: grid;
+    /*grid-template-columns: 700px 300px;*/
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2px;
+
+    background-color: aqua;
+    
+    top: 82px;
+    left: 0;
+    right: 0;
+}
+
+.intro-img{
+background-color: brown;
+width: 100%;
+height: 700px;
+object-fit: contain;
+
+}
+
+.quote-div{
+    display:table; /*Vertically align b tag*/
+}
+
+.quote{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 150px;
+    height: max-content;
+    background-color: blueviolet;
+
+    justify-content: left;
+    
+    /*Vertically align b tag*/
+    display:table-cell;
+ vertical-align:middle;
+
+
+}
