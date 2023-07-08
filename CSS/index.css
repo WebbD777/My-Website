@@ -112,3 +112,47 @@ object-fit: contain;
 
 
 }
+
+.foot-div{
+   display: grid;
+  column-gap: 50px; 
+  grid-template-columns: repeat(2, 55px);
+  grid-template-rows: repeat(2, 40px);
+  
+  background-color: #f0f0f0f0;
+
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+
+  width: 100%;
+}
+
+.facebook-button{
+    border: none;
+    border-right: 1px solid black;
+
+    cursor: pointer;
+width: 100px;
+height: 40px;
+
+}
+
+.instagram-button{
+    border: none;
+    
+
+    cursor: pointer;
+width: 100px;
+height: 40px;
+    
+}
+
+.threads-button{
+    border: none;
+    border-right: 1px solid black;
+
+    cursor: pointer;
+width: 100px;
+height: 40px;
+}
