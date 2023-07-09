@@ -1,6 +1,6 @@
 //let about = document.getElementById("aboutButton-id")
-
-
+//
+//
 function aboutButton(){
     window.location.href = "about.html"
     //window.open("/html/about.html")
@@ -14,3 +14,4 @@ function goHome(){
 function portfolioButton(){
     window.location.href = "portfolio.html"
 }
+
